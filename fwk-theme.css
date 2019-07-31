@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+
+:root {
+	/* Colors */
+	--color-background: #EFEFEF;
+	--color-foreground: #333;
+	
+	--color-lightest: #fff;
+	--color-light: #efefef;
+	--color-md-light: #CCC;
+	--color-md-dark: #666;
+	--color-dark: #212121;
+	
+	--color-primary: #007bff;
+	--color-info: #17a2b8;
+	--color-success: #28a745;
+	--color-danger: #dc3545;
+	--color-callout: #ffa107;
+	--color-input-focus: #9bcbff;
+	
+	/* Font Styles */
+	--font-size: 18px;
+	--font-line-height: 1.65;
+	/* Font Stacks */
+  --font-stack: raleway, sans-serif;
+	--font-bold: raleway-bold;
+	--font-headers: Oswald;
+  --heading-font-stack: Oswald, serif;
+	--font-stack-code: Courier;
+	
+	/* Layout */
+	--vertical-space: 2rem;
+}

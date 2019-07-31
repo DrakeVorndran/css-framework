@@ -1,0 +1,38 @@
+$colors: --color-background,
+--color-foreground,
+
+--color-lightest,
+--color-light,
+--color-md-light,
+--color-md-dark,
+--color-dark,
+
+--color-primary,
+--color-info,
+--color-success,
+--color-danger,
+--color-callout;
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+
+  >div {
+    height: 100px;
+    width: 200px;
+    border: solid black 1px;
+    margin: 20px;
+  }
+
+  @for $i from 1 through 12 {
+    $color: var(nth($colors, $i));
+    :nth-child(#{$i}){
+      background-color: $color;
+      &:before {
+        color: $color;
+        content: "" + nth($colors, $i) + "";
+        filter: invert(100%) grayscale(100%);
+      }
+    }
+  }
+}

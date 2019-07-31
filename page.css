@@ -1,0 +1,147 @@
+.colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.colors > div {
+  height: 100px;
+  width: 200px;
+  border: solid black 1px;
+  margin: 20px;
+}
+
+.colors :nth-child(1) {
+  background-color: var(--color-background);
+}
+
+.colors :nth-child(1):before {
+  color: var(--color-background);
+  content: "--color-background";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+
+.colors :nth-child(2) {
+  background-color: var(--color-foreground);
+}
+
+.colors :nth-child(2):before {
+  color: var(--color-foreground);
+  content: "--color-foreground";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+
+.colors :nth-child(3) {
+  background-color: var(--color-lightest);
+}
+
+.colors :nth-child(3):before {
+  color: var(--color-lightest);
+  content: "--color-lightest";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+
+.colors :nth-child(4) {
+  background-color: var(--color-light);
+}
+
+.colors :nth-child(4):before {
+  color: var(--color-light);
+  content: "--color-light";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+
+.colors :nth-child(5) {
+  background-color: var(--color-md-light);
+}
+
+.colors :nth-child(5):before {
+  color: var(--color-md-light);
+  content: "--color-md-light";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+
+.colors :nth-child(6) {
+  background-color: var(--color-md-dark);
+}
+
+.colors :nth-child(6):before {
+  color: var(--color-md-dark);
+  content: "--color-md-dark";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+
+.colors :nth-child(7) {
+  background-color: var(--color-dark);
+}
+
+.colors :nth-child(7):before {
+  color: var(--color-dark);
+  content: "--color-dark";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+
+.colors :nth-child(8) {
+  background-color: var(--color-primary);
+}
+
+.colors :nth-child(8):before {
+  color: var(--color-primary);
+  content: "--color-primary";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+
+.colors :nth-child(9) {
+  background-color: var(--color-info);
+}
+
+.colors :nth-child(9):before {
+  color: var(--color-info);
+  content: "--color-info";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+
+.colors :nth-child(10) {
+  background-color: var(--color-success);
+}
+
+.colors :nth-child(10):before {
+  color: var(--color-success);
+  content: "--color-success";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+
+.colors :nth-child(11) {
+  background-color: var(--color-danger);
+}
+
+.colors :nth-child(11):before {
+  color: var(--color-danger);
+  content: "--color-danger";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+
+.colors :nth-child(12) {
+  background-color: var(--color-callout);
+}
+
+.colors :nth-child(12):before {
+  color: var(--color-callout);
+  content: "--color-callout";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
+/*# sourceMappingURL=page.css.map */

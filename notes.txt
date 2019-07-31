@@ -1,0 +1,8 @@
+looks good
+wow!
+maybe some character spacing in the navbar?
+Maybe links shoud not be bold? try it and decide
+try alinging links on baseline with the title
+hover style for links in navbar
+
+column
