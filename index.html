@@ -48,6 +48,7 @@
       <div></div>
       <div></div>
       <div></div>
+      <div></div>
     </div>
   </div>
 
@@ -93,6 +94,83 @@
     </form>
   </div>
 
+  <div class="container">
+    <h1>Alerts</h1>
+    <div class="alert">
+      stuff happend
+      <span onclick="//remove the alert">x</span>
+    </div>
+
+    <div class="alert success">
+      good stuff happend
+      <span onclick="//remove the alert">x</span>
+    </div>
+
+    <div class="alert callout">
+      weird stuff happend
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Badges</h1>
+    <p>an inline badge<span class="badge">New!</span></p>
+    <p>an bad inline badge<span class="badge danger">Removed</span></p>
+  </div>
+
+  <div class="container">
+    <h1>Cards</h1>
+    <div class='card'>
+      <h1>Cards!</h1>
+      <image src="https://via.placeholder.com/200x160.png?text=PlaceHolder+Image"></image>
+      <p>body text for a card</p>
+      <button>Button!</button>
+    </div>
+  </div>
+  
+  <div class="container">
+    <h1>Flippy cards</h1>
+    <div class='alert callout'>
+      These are web-components, and require the js file!!
+    </div>
+    <flippy-card>
+      <img src="https://via.placeholder.com/200x160.png?text=PlaceHolder+Image" />
+      <h1>Title</h1>
+      <p>Body Text</p>
+    </flippy-card>
+    
+  </div>
+
+  <div class="container">
+    <h1>Button Group</h1>
+    <div class="button-group">
+      <button>this</button>
+      <button>is</button>
+      <button>a</button>
+      <button>group</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Tables</h1>
+      <table>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th> 
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Jill</td>
+            <td>Smith</td> 
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td> 
+            <td>94</td>
+          </tr>
+        </table>
+  </div>
+
   <footer class="footer">
     <ul>
       <li>
@@ -130,6 +208,7 @@
       </li>
     </ul>
   </footer>
+  <script src="./component/flippy-card.js"></script>
 </body>
 
 </html>

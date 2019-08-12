@@ -144,4 +144,15 @@
   -webkit-filter: invert(100%) grayscale(100%);
           filter: invert(100%) grayscale(100%);
 }
+
+.colors :nth-child(13) {
+  background-color: var(--color-input-focus);
+}
+
+.colors :nth-child(13):before {
+  color: var(--color-input-focus);
+  content: "--color-input-focus";
+  -webkit-filter: invert(100%) grayscale(100%);
+          filter: invert(100%) grayscale(100%);
+}
 /*# sourceMappingURL=page.css.map */

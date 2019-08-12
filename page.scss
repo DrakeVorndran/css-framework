@@ -1,17 +1,16 @@
 $colors: --color-background,
 --color-foreground,
-
 --color-lightest,
 --color-light,
 --color-md-light,
 --color-md-dark,
 --color-dark,
-
 --color-primary,
 --color-info,
 --color-success,
 --color-danger,
---color-callout;
+--color-callout,
+--color-input-focus;
 
 .colors {
   display: flex;
@@ -24,7 +23,7 @@ $colors: --color-background,
     margin: 20px;
   }
 
-  @for $i from 1 through 12 {
+  @for $i from 1 through 13 {
     $color: var(nth($colors, $i));
     :nth-child(#{$i}){
       background-color: $color;
